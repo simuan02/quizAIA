@@ -1,0 +1,133 @@
+body {
+    background-color: royalblue;
+    padding: 1%;
+    margin: 0;
+    font-size: 15pt;
+    color: whitesmoke;
+    font-family: Arial, sans-serif;
+}
+
+h1#firstTitle {
+   text-align: center;
+    font-size: 30pt;
+    margin-bottom: 1%;
+}
+
+hr{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#testoDomanda {
+    margin: auto;
+    width: 80%;
+    background-color: gold;
+    color: black;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 18pt;
+}
+
+#containerRisposte{
+    margin: 3% auto 0;
+    text-align: center;
+}
+
+.pulsantiRisposta {
+    margin: 1% 2%;
+    background-color: gold;
+    color:black;
+    font-weight: bolder;
+    font-size: 18pt;
+    padding: 1%;
+}
+
+.pulsantiRisposta:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.startLink {
+    text-decoration: none;
+    font-size: 30pt;
+    color: black;
+}
+
+.StartButton {
+    display: block;
+    background-color: gold;
+    margin: 2% auto;
+    width: 250pt;
+    font-weight: bolder;
+}
+
+#StartButton:hover{
+    background-color: whitesmoke;
+}
+
+#answerCounter {
+    color: black;
+    background-color: gold;
+    font-size: 22pt;
+    margin: 2% 25%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#checkAnswer {
+    padding: 3%;
+    margin: auto;
+    width: 70%;
+    color: black;
+    background-color: gold;
+    font-size: 22pt;
+    display: none;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#EndQuiz {
+    width: 90%;
+    margin: auto;
+    padding: 1%;
+    text-align: center;
+    background-color: navy;
+    border: 2px solid black;
+}
+
+#endQuizAnchor {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 25pt;
+}
+
+form {
+    text-align: left;
+    color: whitesmoke;
+    font-size: 18pt;
+    border: 1px solid black;
+    width: 75%;
+    padding: 2%;
+}
+
+.FormInputs {
+    font-size: 18pt;
+    background-color: gold;
+    color: black;
+    text-align: left;
+    margin-bottom: 1%;
+}
+
+#FormSubmit {
+    color: black;
+    text-align: center;
+    font-size: 20pt;
+    background-color: gold;
+    padding: 1%;
+}
+
+#FormSubmit:hover{
+    color: whitesmoke;
+    background-color: black;
+}
